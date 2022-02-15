@@ -1,0 +1,109 @@
+/*
+// GLOBAL, BASE AND UTILITY //
+*/
+
+/* HTML5 reset for older browsers */
+figcaption, figure, 
+footer, header, article,
+main, nav, section {
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background: #FEFEFE;
+  margin: 0 auto;
+}
+
+body, html {
+  overflow-x: hidden !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.container--main {
+  max-width: 960px;
+}
+
+.container--slim {
+  max-width: 800px;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+/*
+// HEADER //
+*/
+.header {
+  background: rgba(50, 147, 237, 1);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header__title {
+  color: #FEFEFE;
+  font-size: 20px;
+}
+
+/*
+// FOOTER //
+*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333333;
+  border-top: 1px solid #ccc;
+  padding: 4px;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: #FEFEFE;
+}
+
+/*
+// RESPONSIVE //
+*/
+@media screen and (min-width: 576px) {
+  .header {
+    text-align: left;
+  }
+
+  .header__title {
+    font-size: 40px;
+  }
+}
