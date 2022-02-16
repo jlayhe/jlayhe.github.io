@@ -74,7 +74,36 @@ img {
 
 .header__title {
   color: #FEFEFE;
+  font-size: 28px;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+/*
+// NAV //
+*/
+.nav {
+  float: none;
+}
+
+.nav__list {
+  list-style-type: none;
+}
+
+.nav__item {
+  display: block;
+  padding: 2px 0;
   font-size: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  font-weight: 600;
+}
+
+.nav__link:hover {
+  color: #FEFEFE;
+  transition: ease 0.4s all;
 }
 
 /*
@@ -105,5 +134,21 @@ img {
 
   .header__title {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .header__title {
+    margin-bottom: 0;
+  }
+
+  .nav {
+    float: right;
+  }
+
+  .nav__item {
+    display: inline-block;
+    width: auto;
+    padding: 18px 12px 0;
   }
 }
