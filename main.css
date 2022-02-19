@@ -88,6 +88,7 @@ img {
 
 .nav__list {
   list-style-type: none;
+  display: none;
 }
 
 .nav__item {
@@ -160,6 +161,10 @@ img {
 
   .nav {
     float: right;
+  }
+
+  .nav__list {
+    display: block;
   }
 
   .nav__item {
