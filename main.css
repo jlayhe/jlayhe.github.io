@@ -106,6 +106,18 @@ img {
   transition: ease 0.4s all;
 }
 
+/* Mobile menu toggle */
+.show-menu {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 /*
 // FOOTER //
 */
@@ -135,6 +147,10 @@ img {
   .header__title {
     font-size: 40px;
   }
+
+  .show-menu {
+    top: 31px;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -150,5 +166,9 @@ img {
     display: inline-block;
     width: auto;
     padding: 18px 12px 0;
+  }
+
+  .show-menu {
+    display: none;
   }
 }
