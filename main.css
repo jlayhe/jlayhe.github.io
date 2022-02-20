@@ -38,6 +38,10 @@ img {
   max-width: 800px;
 }
 
+.container--benefits {
+  font-size: 0;
+}
+
 .page-section {
   padding: 30px 15px;
 }
@@ -178,6 +182,59 @@ img {
 }
 
 /*
+// BENEFITS //
+*/
+.benefits {
+  background: #CCCCCC;
+  color: #000000;
+}
+
+.benefits__headline {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.small1-mid3-box {
+  display: block;
+}
+
+.benefits-box-link {
+  text-decoration: none;
+}
+
+.benefits__headline {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.benefits-box {
+  box-sizing: border-box;
+  padding: 65px 0;
+  color: #FEFEFE;
+}
+
+.benefits-box__title {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.benefits-box__text {
+  font-size: 16px;
+}
+
+.benefits-box:hover {
+  background: rgba(249, 71, 71, 0.6);
+}
+
+.benefits-box--light {
+  background: #5f6E76;
+}
+
+.benefits-box--dark {
+  background: #324D5B;
+}
+
+/*
 // CONTACT AND FORM //
 */
 .section-contact {
@@ -200,7 +257,7 @@ img {
 }
 
 .contact-form textarea {
-    resize: none;
+  resize: none;
 }
 
 /* Form Inputs */
@@ -232,7 +289,7 @@ img {
 }
   
 .contact-form__btn:hover {
-  background: #959D9D;
+  background: #CCCCCC;
   color: A7ADAD;
   cursor: pointer;
   transition: ease 0.3s all;
@@ -307,10 +364,13 @@ img {
   .main-introduction__text {
     font-size: 22px;
   }
-}
 
-@media screen and (min-width: 992px) {
-  .main-introduction {
-    padding: 0;
+  .small1-mid3-box {
+    display: inline-block;
+    width: 33.3%;
+  }
+
+  .benefits__text {
+    font-size: 18px;
   }
 }
