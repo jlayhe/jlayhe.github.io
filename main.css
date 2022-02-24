@@ -198,7 +198,6 @@ img {
 
 .news__headline {
   text-decoration: underline;
-  text-decoration-style: double;
 }
 
 .small1-mid3-box {
@@ -246,8 +245,8 @@ img {
 */
 .notices__headline {
   margin-top: 0;
-  border-top: 3px solid #CCCCCC;
-  padding-top: 20px;
+  /*border-top: 3px solid #CCCCCC;
+  padding-top: 20px;*/
   font-size: 30px;
   text-decoration: underline;
 }
