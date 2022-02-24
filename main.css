@@ -84,7 +84,7 @@ img {
 .header {
   background: rgba(50, 147, 237, 1);
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 4px;
 }
 
 .header__title {
@@ -92,6 +92,15 @@ img {
   font-size: 28px;
   display: inline-block;
   margin-bottom: 14px;
+}
+
+.header__text {
+  font-size: 18px;
+  color: #FEFEFE;
+  line-height: 1.4;
+  border-top: 3px solid #FEFEFE;
+  border-bottom: 3px solid #FEFEFE;
+  padding: 7px 0;
 }
 
 /*
@@ -415,6 +424,10 @@ img {
 
   .general-btn {
     display: block;
+  }
+
+  .header__text {
+    font-size: 22px;
   }
 
   .main-introduction__text {
