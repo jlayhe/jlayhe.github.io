@@ -38,7 +38,7 @@ img {
   max-width: 800px;
 }
 
-.container--benefits {
+.container--news {
   font-size: 0;
 }
 
@@ -189,14 +189,14 @@ img {
 }
 
 /*
-// BENEFITS //
+// NEWS //
 */
-.benefits {
+.news {
   background: #CCCCCC;
   color: #000000;
 }
 
-.benefits__headline {
+.news__headline {
   text-decoration: underline;
   text-decoration-style: double;
 }
@@ -205,39 +205,39 @@ img {
   display: block;
 }
 
-.benefits-box-link {
+.news-box-link {
   text-decoration: none;
 }
 
-.benefits__headline {
+.news__headline {
   font-size: 30px;
   margin-top: 0;
 }
 
-.benefits-box {
+.news-box {
   box-sizing: border-box;
-  padding: 65px 0;
+  padding: 35px 20px 50px 20px;
   color: #FEFEFE;
 }
 
-.benefits-box__title {
+.news-box__title {
   font-size: 18px;
   margin-top: 0;
 }
 
-.benefits-box__text {
+.news-box__text {
   font-size: 16px;
 }
 
-.benefits-box:hover {
+.news-box:hover {
   background: rgba(249, 71, 71, 0.6);
 }
 
-.benefits-box--light {
+.news-box--light {
   background: #5f6E76;
 }
 
-.benefits-box--dark {
+.news-box--dark {
   background: #324D5B;
 }
 
@@ -427,7 +427,7 @@ img {
     width: 33.3%;
   }
 
-  .benefits__text {
+  .news__text {
     font-size: 18px;
   }
 
