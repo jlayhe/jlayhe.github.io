@@ -38,6 +38,10 @@ img {
   max-width: 800px;
 }
 
+.container--header {
+  margin: 0 auto;
+}
+
 .container--news {
   font-size: 0;
 }
@@ -83,8 +87,8 @@ img {
 */
 .header {
   /*background: rgba(50, 147, 237, 1);*/
-  background: #333333;
-  text-align: center;
+  /*background: #333333;*/
+  background: #0A2F57;
   padding: 20px 0 4px;
 }
 
@@ -93,6 +97,8 @@ img {
   font-size: 28px;
   display: inline-block;
   margin-bottom: 14px;
+  padding: 0 30px;
+  text-align: center;
 }
 
 .header__text {
@@ -100,16 +106,22 @@ img {
   color: #FEFEFE;
   line-height: 1.4;
   border-top: 3px solid #FEFEFE;
-  border-bottom: 3px solid #FEFEFE;
-  padding: 7px 0;
+  /*border-bottom: 3px solid #FEFEFE;*/
+  /*padding: 7px 0;*/
+  background: #0A2F57;
+  margin-top: 25px;
+  /*padding-bottom: 30px;
+  padding-top: 30px;
+  padding: 0 30px;*/
+  padding: 25px 30px;
 }
 
 /*
 // NAV //
 */
 .nav {
-  /*float: none;*/
-  text-align: center;
+  float: none;
+  padding: 0 30px;
 }
 
 .nav__list {
@@ -121,12 +133,16 @@ img {
   display: block;
   padding: 2px 0;
   font-size: 20px;
+  margin-top: 10px;
 }
+
+/*.nav__item:nth-child(3) {
+  border-right: 1px solid #FEFEFE;
+}*/
 
 .nav__link {
   /*color: #000000;*/
   color: #FEFEFE;
-  font-weight: 600;
 }
 
 .nav__link:hover {
@@ -145,6 +161,8 @@ img {
   color: #FEFEFE;
   text-transform: uppercase;
   cursor: pointer;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 /*
@@ -399,9 +417,13 @@ img {
     font-size: 40px;
   }
 
-  .show-menu {
-    top: 31px;
+  .header__title {
+    text-align: left;
   }
+
+  /*.show-menu {
+    top: 31px;
+  }*/
 }
 
 @media screen and (min-width: 600px) {
@@ -415,33 +437,16 @@ img {
     margin-bottom: 0;
   }
 
-  /*
-  .nav {
-    float: right;
-  }
-  */
-
-  .nav__list {
-    /*display: block;*/
-    display: inline-block;
-  }
-
-  .nav__item {
-    display: inline-block;
-    width: auto;
-    padding: 18px 12px 0;
-  }
-
-  .show-menu {
-    display: none;
-  }
-
   .general-btn {
     display: block;
   }
 
   .header__text {
     font-size: 22px;
+  }
+
+  .show-menu {
+    margin-top: 20px;
   }
 
   .main-introduction__text {
@@ -477,5 +482,27 @@ img {
 
   .notices__tag {
     display: inline-block;
+  }
+}
+
+/* Width depends on number of nav items */
+@media screen and (min-width: 1250px) {
+  .nav {
+    float: right;
+  }
+  
+  .nav__list {
+    display: block;
+  }
+
+  .nav__item {
+    display: inline-block;
+    width: auto;
+    padding: 18px 12px 0;
+    margin-top: 0;
+  }
+
+  .show-menu {
+    display: none;
   }
 }
