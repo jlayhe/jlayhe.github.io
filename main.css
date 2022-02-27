@@ -86,9 +86,8 @@ img {
 // HEADER //
 */
 .header {
-  /*background: rgba(50, 147, 237, 1);*/
-  /*background: #333333;*/
-  background: #0A2F57;
+  background: #05192E;
+  /*background: #0A2F57;*/
   padding: 20px 0 0;
 }
 
@@ -102,19 +101,18 @@ img {
 }
 
 .header__text {
-  font-size: 18px;
+  font-size: 16px;
   color: #FEFEFE;
   line-height: 1.4;
-  border-top: 3px solid #FEFEFE;
-  border-bottom: 3px solid #FEFEFE;
+  border-top: 1px solid #FEFEFE;
+  border-bottom: 1px solid #FEFEFE;
   /*padding: 7px 0;*/
   background: #0A2F57;
   margin-top: 25px;
   /*padding-bottom: 30px;
   padding-top: 30px;
   padding: 0 30px;*/
-  padding: 25px 30px;
-  text-align: center;
+  padding: 13px 30px 11px 30px;
 }
 
 /*
@@ -123,6 +121,7 @@ img {
 .nav {
   float: none;
   padding: 0 30px;
+  text-align: center;
 }
 
 .nav__list {
@@ -164,6 +163,31 @@ img {
   cursor: pointer;
   font-size: 20px;
   text-decoration: underline;
+  text-align: center;
+}
+
+/*
+// BENEFITS //
+*/
+.benefits {
+  background: #0A2F57;
+  border-bottom: 1px solid #FEFEFE;
+  color: #FEFEFE;
+}
+
+.small1-mid4-box {
+  display: block;
+}
+
+.benefits-box {
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.benefits-box__title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*
@@ -235,21 +259,8 @@ img {
   color: #000000;
 }
 
-.notices__headline {
-  text-decoration: underline;
-}
-
 .small1-mid3-box {
   display: block;
-}
-
-.notices-box-link {
-  text-decoration: none;
-}
-
-.notices__headline {
-  font-size: 30px;
-  margin-top: 0;
 }
 
 .notices-box {
@@ -272,7 +283,7 @@ img {
 }
 
 .notices-box--light {
-  background: #5f6E76;
+  background: #5F6E76;
 }
 
 .notices-box--dark {
@@ -337,7 +348,7 @@ img {
 // CONTACT AND FORM //
 */
 .section-contact {
-  background-color: #333333;
+  background: #333333;
   color: #FEFEFE;
 }
 
@@ -400,7 +411,8 @@ img {
 // FOOTER //
 */
 .footer {
-  background-color: #333333;
+  /*background: #333333;*/
+  background: #05192E;
   border-top: 1px solid #ccc;
   padding: 4px;
 }
@@ -422,13 +434,13 @@ img {
     font-size: 40px;
   }
 
-  .header__title, .header__text {
+  .header__title {
     text-align: left;
   }
 
-  /*.show-menu {
-    top: 31px;
-  }*/
+  .show-menu, .nav {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -446,8 +458,8 @@ img {
     display: block;
   }
 
-  .header__text {
-    font-size: 22px;
+  .header__text, .benefits-box__title {
+    font-size: 18px;
   }
 
   .show-menu {
@@ -487,6 +499,22 @@ img {
 
   .news__tag {
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 965px) {
+  .small1-mid4-box {
+    display: inline-block;
+    width: 25%;
+  }
+
+  .benefits-box {
+    padding: 13px 5px;
+    border-right: 1px solid #FEFEFE;
+  }
+
+  .benefits-box--right {
+    border-right: none;
   }
 }
 
