@@ -53,7 +53,6 @@ img {
   padding: 15px 0;
 }
 
-
 .page-section {
   padding: 30px 15px;
 }
@@ -422,6 +421,45 @@ img {
   transition: ease 0.3s all;
   outline: none;
   -webkit-appearance: none;
+}
+
+/*
+// SHOP PAGE //
+*/
+.prices {
+  background: #FEFEFE;
+}
+
+.prices__headline {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+/* All table styling - margins and width */
+.prices__table,
+.reckoner__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* All table styling - rows etc */
+.prices__table th, td,
+.reckoner__table th, td {
+   border: 1px solid;
+   padding: 5px 0 5px 4px;
+}
+
+/* Main pricing table */
+.prices__table {
+  margin: 0 0 20px 0;
+}
+
+/* Reckoner table */
+.reckoner__table {
+  margin: 20px 0 0 0;
 }
 
 /*
