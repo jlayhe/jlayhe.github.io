@@ -50,12 +50,9 @@ img {
 .container--news {
   font-size: 0;
   overflow: hidden;
-  padding-bottom: 30px;
+  padding: 15px 0;
 }
 
-.container--news-last {
-  padding-bottom: 0;
-}
 
 .page-section {
   padding: 30px 15px;
@@ -151,7 +148,7 @@ img {
 
 .nav__link:hover {
   /*color: #FEFEFE;*/
-  color: #FFFF00;
+  color: #FF0000;
   transition: ease 0.4s all;
 }
 
@@ -308,14 +305,16 @@ img {
 
 .news__headline {
   margin-top: 0;
-  /*border-top: 3px solid #CCCCCC;
-  padding-top: 20px;*/
+  margin-bottom: 5px;
+  border-bottom: 3px solid #05192E;
+  padding-bottom: 20px;
   font-size: 30px;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .news--left__title {
   text-transform: uppercase;
+  text-decoration: underline;
   font-size: 20px;
   text-align: center;
 }
@@ -324,6 +323,16 @@ img {
   font-size: 18px;
   line-height: 1.3;
   margin-top: 5px;
+}
+
+.news--left__text--link:link,
+.news--left__text--link:visited,
+.news--left__text--link:active {
+  color: #000000;
+}
+
+.news--left__text--link:hover {
+  color: #FF0000;
 }
 
 .news--left {
