@@ -349,9 +349,8 @@ img {
   display: none;
 }
 
-.news__tag--orange { background: orange; }
-.news__tag--pink { background: hotpink; }
-.news__tag--blue { background: lightblue; }
+.news__tag--notice { background: #FF9900; }
+.news__tag--news { background: #FF0066; }
 
 /*
 // CONTACT AND FORM //
