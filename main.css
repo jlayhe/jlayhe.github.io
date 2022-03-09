@@ -439,15 +439,13 @@ img {
 }
 
 /* All table styling - margins and width */
-.prices__table,
-.reckoner__table {
+.prices__table {
   width: 100%;
   border-collapse: collapse;
 }
 
 /* All table styling - rows etc */
-.prices__table th, td,
-.reckoner__table th, td {
+.prices__table th, td {
    border: 1px solid;
    padding: 5px 0 5px 4px;
 }
@@ -455,11 +453,6 @@ img {
 /* Main pricing table */
 .prices__table {
   margin: 0 0 20px 0;
-}
-
-/* Reckoner table */
-.reckoner__table {
-  margin: 20px 0 0 0;
 }
 
 /*
