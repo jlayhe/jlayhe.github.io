@@ -216,7 +216,7 @@ img {
   /*margin: 10px auto 24px auto;*/
   color: #000000;
   height: 50vh;
-  background-image: url('main-background.jpg');
+  background-image: url('img/main-background.jpg');
   background-repeat: no-repeat;
   //background-position: center;
   background-size: cover;
@@ -453,6 +453,36 @@ img {
 /* Main pricing table */
 .prices__table {
   margin: 0 0 20px 0;
+}
+
+/*
+// HISTORY PAGE //
+*/
+.history {
+  background: #FEFEFE;
+}
+
+.history__headline {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.history__text {
+  font-size: 18px;
+}
+
+.history__image {
+  display: block;
+  border: 3px solid #000000;
+}
+
+.history__image--cover,
+.history__image--board,
+.history__image--contents {
+  margin: 30px auto 60px auto;
 }
 
 /*
