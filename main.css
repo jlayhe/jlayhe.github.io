@@ -212,13 +212,12 @@ img {
 }
 
 .main-introduction__picture {
-  /*border-radius: 10px;*/
   /*margin: 10px auto 24px auto;*/
   color: #000000;
   height: 50vh;
   background-image: url('img/main-background.jpg');
   background-repeat: no-repeat;
-  //background-position: center;
+  background-position: center;
   background-size: cover;
   padding: 0 0 15px 0;
 }
