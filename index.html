@@ -8,18 +8,22 @@
   <meta name="description" content="Highfields Allotments Society in Chesterfield, Derbyshire">
   <meta name="keywords" content="highfields, allotments, society, chesterfield">
   <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
 <body> 
 
 <header class="header">
   <div class="container--header">
     <a href="#" class="tdn">
-	    <h1 class="header__title no-margin">
+	    <h1 class="header__title no-margin font-fancy">
 	      Highfields Allotments Society Ltd
 	    </h1>
     </a>
 
-    <nav class="nav">
+    <nav class="nav font-fancy">
       <span class="show-menu text-bold js-menu-toggle">
         Menu
       </span>
@@ -42,14 +46,14 @@
       </ul>
     </nav>
 
-    <p class="header__text text-center no-margin">
+    <p class="header__text text-center no-margin font-italic">
       Registered with the FCA as a Co-operative and Community Benefits Society Act 2014.
     </p>
 
   </div>
 </header>
 
-<section class="benefits">
+<section class="benefits font-italic">
   <div class="small1-mid4-box text-center">
       <div class="benefits-box">
         <p class="benefits-box__title">Founded in 1920.</p>
@@ -192,7 +196,7 @@
       If you would like to discuss something with us, would like to join the society, have feedback or anything else please use the form below.
     </p>
 
-    <form name="contactform" method="post" action="#" class="contact-form">
+    <form name="contactform" method="post" action="send_form_email.php" class="contact-form">
       <input type="text" name="first_name" placeholder="Name" class="contact-form__input">
       <input type="text" name="email" placeholder="Email address" class="contact-form__input">
       <textarea name="comments" placeholder="Comments or questions" class="contact-form__textarea" rows="7"></textarea>

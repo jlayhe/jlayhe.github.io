@@ -82,6 +82,16 @@ img {
   text-decoration: none;
 }
 
+.font-fancy {
+  font-family:'Pacifico', cursive;
+  font-weight: 400;
+}
+
+.font-italic {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+
 /*
 // HEADER //
 */
@@ -531,7 +541,8 @@ img {
   }
 
   .header__text, .benefits-box__title {
-    font-size: 18px;
+   /*font-size: 18px;*/
+    font-size: 22px;
   }
 
   .show-menu {
