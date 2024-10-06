@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html lang="en-gb"> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James and Charlotte</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body> 
+
+<header class="header">
+  <div class="container--header">
+    <a href="#" class="tdn">
+	    <h1 class="header__title no-margin font-fancy">
+	      James and Charlotte
+	    </h1>
+    </a>
+<!--
+    <nav class="nav font-fancy">
+      <span class="text-bold js-menu-toggle">
+        Menu
+      </span>
+      <ul class="nav__list no-margin" id="menu">
+        <li class="nav__item">
+          <a href="#" class="nav__link tdn text-bold js-go-to">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link tdn text-bold js-go-to">Accommodation</a>
+        </li>
+      </ul>
+    </nav>
+-->
+  </div>
+</header>
+
+<section class="main-introduction">
+  <div class="main-introduction">
+
+    <p class="main-introduction__text">Welcome boys and girls.... to our big day!</p>
+    <!--
+    <img src="img/church.jpg" alt="Picture" title="Picture" class="main-introduction__profilepic">
+    -->
+    <p class="main-introduction__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="general-btn text-center">
+      <!--<a class="main-introduction__btn tdn js-go-to" href="#contact">
+        RSVP to our wedding
+      </a>-->
+    </div>
+    
+  </div>
+</section>
+
+<section class="page-section news" id="news-section">
+  <div class="container container--main">
+
+    <h2 class="news__headline text-center">
+      Accommodation
+    </h2>
+
+    <div class="container--news">
+      <div class="news--left">
+        <h3 class="news--left__title">Hotels</h3>
+
+        <p class="news--left__text">
+        All hotels can be listed here, including the two Premier Inn's.
+        </p>
+      </div>
+
+      <div class="news--right">
+        <h3 class="news--left__title">Taxis</h3>
+
+        <p class="news--left__text">
+        All taxi companies can be listed here.
+        </p>
+      </div>
+    </div>
+
+    <div class="container--news">
+      <div class="news--left">
+        
+        <h3 class="news--left__title">Details</h3>
+        <p class="news--left__text">
+          Church Address, Chesterfield, Derbyshire
+        </p>
+        <p class="news--left__text">
+          Reception Address, Chesterfield, Derbyshire
+        </p>
+        <p class="news--left__text font-italic">
+          Note that reception is a 5 minute drive from the church.
+        </p>
+      </div>
+
+      <div class="news--right">
+        <img src="img/church.jpg" alt="Picture" class="news--right__img">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="page-section section-contact" id="contact">
+  <div class="container container--slim">
+    <h2 class="section-contact__title no-margin">Fill in the form...</h2>
+
+    <p class="section-contact__text">
+      Please fill in the form to confirm your attendace.
+    </p>
+
+    <form name="contactform" method="post" action="https://forms.un-static.com/forms/1e2bb0f051af102ac2a865328277dc7c6d94a400" class="contact-form">
+
+      <input type="checkbox" id="attendance" name="Are you attending?" value="Yes">
+      <label for="attendance"> Will you be attending?</label><br>
+
+      <input type="text" name="Dietary requirements or allergies" placeholder="Full names of all those attending" class="contact-form__input">
+      <textarea name="comments" placeholder="Dietary requirements / allergies" class="contact-form__textarea" rows="3"></textarea>
+
+      <div class="text-center">
+        <input type="submit" value="Submit" class="contact-form__btn text-bold">
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p class="footer__text text-center">
+    &copy; James and Charlotte
+    <br>
+    Website designed and created by <a rel="nofollow" href="https://github.com/jlayhe/" class="footer__link" target="blank">James</a>.
+    <br>
+    Contact form powered by <a rel="nofollow" href="https://un-static.com/" class="footer__link" target="blank">Un-static Forms</a>
+  </p>
+</footer>
+
+<!-- jQuery -->
+<script src="jquery-3.6.0.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
