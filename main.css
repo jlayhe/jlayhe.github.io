@@ -189,6 +189,10 @@ img {
   margin-top: 5px;
 }
 
+.news--left__bullets {
+  list-style-type: none;
+}
+
 .news--left {
   width: 100%;
 }
