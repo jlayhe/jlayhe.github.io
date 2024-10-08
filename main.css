@@ -43,7 +43,7 @@ img {
 }
 
 .container--news {
-  font-size: 0;
+  /*font-size: 0;*/
   overflow: hidden;
   padding: 15px 0;
 }
@@ -107,7 +107,7 @@ img {
 /*
 // NAV //
 */
-.nav {
+/*.nav {
   float: none;
   padding: 0 30px;
   text-align: center;
@@ -126,16 +126,14 @@ img {
 }
 
 .nav__link {
-  /*color: #000000;*/
   color: #FEFEFE;
 }
 
 .nav__link:hover {
-  /*color: #FEFEFE;*/
   color: #FF0000;
   transition: ease 0.4s all;
 }
-
+*/
 .main-introduction__profilepic {
   border-radius: 50%;
   display: block;
@@ -161,29 +159,6 @@ img {
   padding: 0 0 15px 0;
 }
 */
-.general-btn { 
-  margin: 12px 0 25px 0;
-  display: none;
-}
-
-.main-introduction__btn {
-  padding: 10px 50px;
-  border-radius: 50px;
-  border: 2px solid rgba(50, 147, 237, 1);
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #000000;
-}
-
-.main-introduction__btn:hover {
-  background: rgba(50, 147, 237, 1);
-  color: #FEFEFE;
-  cursor: pointer;
-  transition: ease 0.3s all;
-  outline: none;
-  -webkit-appearance: none;
-}
 
 /*
 // NEWS //
@@ -340,11 +315,11 @@ img {
 @media screen and (min-width: 576px) {
   /*.header {
     text-align: left;
-  }*/
+  }
 
   .nav {
     text-align: left;
-  }
+  }*/
 }
 
 @media screen and (min-width: 600px) {
@@ -360,10 +335,6 @@ img {
 
   .header__title, .section-contact__title {
     font-size: 40px;
-  }
-
-  .general-btn {
-    display: block;
   }
 
   .main-introduction__text {
@@ -404,7 +375,7 @@ img {
 
 /* Width depends on number of nav items */
 @media screen and (min-width: 1250px) {
-  .nav {
+  /*.nav {
     float: right;
   }
   
@@ -418,5 +389,5 @@ img {
     padding: 18px 12px 0;
     margin-top: 0;
     font-size: 20px;
-  }
+  }*/
 }
