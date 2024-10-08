@@ -94,13 +94,13 @@ img {
 .header {
   background: #05192E;
   /*padding: 20px 0 0;*/
+  padding: 20px 30px;
 }
 
 .header__title {
   color: #FEFEFE;
   font-size: 28px;
-  margin-bottom: 14px;
-  padding: 0 30px;
+  /*padding: 0 30px;*/
   text-align: center;
 }
 
@@ -170,11 +170,12 @@ img {
 
 .news__headline {
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
+  /*margin-bottom: 5px;
   border-bottom: 3px solid #05192E;
-  padding-bottom: 20px;
+  padding-bottom: 20px;*/
   font-size: 30px;
-  /*text-decoration: underline;*/
+  text-decoration: underline;
 }
 
 .news--left__title {
@@ -208,7 +209,7 @@ img {
 }
 
 /*
-// CONTACT AND FORM //
+// CONTACT FORM //
 */
 .section-contact {
   background: #333333;
@@ -221,12 +222,6 @@ img {
 
 .section-contact__text {
   font-size: 17px;
-}
-
-/* Standalone Email Address */
-.section-contact__email {
-  color: #FFFFFF;
-  text-decoration: underline;
 }
 
 .section-contact__email:link { color: #FFFFFF; }
@@ -317,13 +312,7 @@ img {
 // RESPONSIVE //
 */
 @media screen and (min-width: 576px) {
-  /*.header {
-    text-align: left;
-  }
-
-  .nav {
-    text-align: left;
-  }*/
+ 
 }
 
 @media screen and (min-width: 600px) {
@@ -375,23 +364,4 @@ img {
     display: inline-block;
     width: 25%;
   }
-}
-
-/* Width depends on number of nav items */
-@media screen and (min-width: 1250px) {
-  /*.nav {
-    float: right;
-  }
-  
-  .nav__list {
-    display: block;
-  }
-
-  .nav__item {
-    display: inline-block;
-    width: auto;
-    padding: 18px 12px 0;
-    margin-top: 0;
-    font-size: 20px;
-  }*/
 }
