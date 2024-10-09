@@ -90,13 +90,16 @@ img {
 // HEADER //
 */
 .header {
-  background: #05192E;
+  /*background: #05192E;*/
+  background: #D9BFD9;
   /*padding: 20px 0 0;*/
   padding: 20px 30px;
+  border-bottom: 4px solid #C8A2C8;
 }
 
 .header__title {
-  color: #FEFEFE;
+  /*color: #FEFEFE;*/
+  color: #000000;
   font-size: 28px;
   /*padding: 0 30px;*/
   text-align: center;
@@ -142,9 +145,11 @@ img {
 // GENERAL //
 */
 .main-introduction {
-  padding: 5px;
-  background: #333333;
-  color: #FFFFFF;
+  padding: 6px 20px;
+  /*background: #333333;
+  color: #FFFFFF;*/
+  background: #E3CFE3;
+  color: #000000;
 }
 /*
 .main-introduction__picture {
@@ -162,8 +167,9 @@ img {
 // ACCOMMODATION //
 */
 .news {
-  background: #05192E;
-  color: #FFFFFF;
+  /*background: #05192E;*/
+  background: #E3CFE3;
+  color: #000000;
 }
 
 .news__headline {
@@ -210,8 +216,11 @@ img {
 // CONTACT FORM //
 */
 .section-contact {
-  background: #333333;
-  color: #FEFEFE;
+  /*background: #333333;
+  color: #FEFEFE;*/
+  background: #D9BFD9;
+  color: #000000;
+  border-top: 4px solid #C8A2C8;
 }
 
 .section-contact__title {
@@ -292,18 +301,22 @@ img {
 // FOOTER //
 */
 .footer {
-  background: #333333;
-  border-top: 1px solid #ccc;
+  /*background: #333333;
+  border-top: 1px solid #ccc;*/
+  border-top: 4px solid #000000;
   padding: 4px;
+  background: #C8A2C8;
 }
 
 .footer__text {
   font-size: 14px;
-  color: #FEFEFE;
+  /*color: #FEFEFE;*/
+  color: #000000;
 }
 
 .footer__link {
-  color: #FEFEFE;
+  /*color: #FEFEFE;*/
+  color: #000000;
 }
 
 /*
