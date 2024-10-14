@@ -258,6 +258,20 @@ img {
   color: #000000;
 }
 
+.gifts {
+  background: #C8A2C8;
+  padding: 16px 0;
+}
+
+.gifts__text {
+  margin: 0;
+  font-size: 26px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 /*
 // FOOTER //
 */
