@@ -225,13 +225,16 @@ img {
   border: none;
   /*background: #A7ADAD;*/
   background: #C8A2C8;
-  font-family: inherit;
+  /*font-family: inherit;*/
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
   font-size: 16px;
   text-transform: uppercase;
   color: #FFFFFF;
   width: 70%;
   margin: 10px 0;
   letter-spacing: 1px;
+  font-size: 18px;
 }
   
 .contact-form__btn:hover {
