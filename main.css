@@ -109,8 +109,6 @@ img {
 */
 .main-introduction {
   padding: 6px 20px;
-  /*background: #333333;
-  color: #FFFFFF;*/
   background: #E3CFE3;
   color: #000000;
 }
@@ -177,11 +175,8 @@ img {
 // CONTACT FORM //
 */
 .section-contact {
-  /*background: #333333;
-  color: #FEFEFE;*/
   background: #D9BFD9;
   color: #000000;
-  border-top: 4px solid #C8A2C8;
 }
 
 .section-contact__title {
@@ -203,6 +198,7 @@ img {
   /*font-family: inherit;*/
 }
 
+/* To stop users being able to expand the text boxes */
 .contact-form textarea {
   resize: none;
 }
@@ -226,18 +222,21 @@ img {
   padding: 9px 0;
   border-radius: 6px;
   border: none;
-  background: #A7ADAD;
+  /*background: #A7ADAD;*/
+  background: #C8A2C8;
   font-family: inherit;
   font-size: 16px;
   text-transform: uppercase;
-  color: #000000;
+  color: #FFFFFF;
   width: 70%;
   margin: 10px 0;
+  letter-spacing: 1px;
 }
   
 .contact-form__btn:hover {
-  background: #CCCCCC;
-  color: A7ADAD;
+  /*background: #CCCCCC;*/
+  background: #FFFFFF;
+  color: #000000;
   cursor: pointer;
   transition: ease 0.3s all;
   outline: none;
@@ -276,21 +275,23 @@ img {
 // FOOTER //
 */
 .footer {
-  /*background: #333333;*/
-  border-top: 4px solid #000000;
+  border-top: 4px solid #FFFFFF;
   padding: 4px;
   background: #C8A2C8;
 }
 
 .footer__text {
   font-size: 14px;
-  /*color: #FEFEFE;*/
   color: #000000;
 }
 
 .footer__link {
-  /*color: #FEFEFE;*/
   color: #000000;
+}
+
+.footer__link:hover {
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 /*
