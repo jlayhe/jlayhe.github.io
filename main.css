@@ -253,22 +253,21 @@ img {
   font-size: 22px;
 }
 
-.success-area__link {
-  color: #000000;
-}
-
 .gifts {
   background: #C8A2C8;
-  padding: 16px 0;
+  padding: 20px 0;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
 }
 
 .gifts__text {
   margin: 0;
-  font-size: 26px;
+  font-size: 28px;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  color: #FFFFFF;
 }
 
 /*
