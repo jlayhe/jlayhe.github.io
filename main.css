@@ -42,7 +42,8 @@ img {
   margin: 0 auto;
 }
 
-.container--news {
+.container--news,
+.container--details {
   /*font-size: 0;*/
   overflow: hidden;
   padding: 15px 0;
@@ -125,13 +126,15 @@ img {
 /*
 // ACCOMMODATION //
 */
-.news {
+.news,
+.details {
   /*background: #05192E;*/
   background: #E3CFE3;
   color: #000000;
 }
 
-.news__headline {
+.news__headline,
+.details__headline {
   margin-top: 5px;
   margin-bottom: 6px;
   border-top: 3px solid #05192E;
@@ -147,7 +150,8 @@ img {
   font-size: 20px;
 }
 
-.news--left__text {
+.news--left__text,
+.details--left__text {
   font-size: 18px;
   line-height: 1.3;
   margin-top: 5px;
@@ -157,17 +161,20 @@ img {
   list-style-type: none;
 }
 
-.news--left {
+.news--left,
+.details--left {
   width: 100%;
 }
 
-.news--right {
+.news--right,
+.details--right {
   width: 100%;
   text-align: left;
 }
 
-/* The news avater */
-.news--right__img {
+/* Pictures of church and reception */
+.news--right__img,
+.details--right__img {
   width: 100%;
   border-radius: 4px;
 }
@@ -314,13 +321,15 @@ img {
     font-size: 28px;
   }
 
-  .news--right {
+  .news--right,
+  .details--right {
     float: right;
     width: 50%;
     text-align: right;
   }
 
-  .news--left {
+  .news--left,
+  .details--left {
     float: left;
     width: 45%;
   }
@@ -329,7 +338,8 @@ img {
     margin-top: 0;
   }
 
-  .news--left__text {
+  .news--left__text,
+  .details--left__text {
     margin-top: 15px;
   }
 }
