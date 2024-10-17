@@ -318,17 +318,26 @@ img {
     font-size: 28px;
   }
 
-  .news--right,
-  .details--right {
+  .news--right {
     float: right;
-    width: 30%;
+    width: 50%;
     text-align: right;
   }
 
-  .news--left,
+  .news--left {
+    float: left;
+    width: 45%;
+  }
+
+  .details--right {
+    float: right;
+    width: 50%;
+    text-align: right;
+  }
+
   .details--left {
     float: left;
-    width: 65%;
+    width: 45%;
   }
 
   .news--left__title {
@@ -337,5 +346,10 @@ img {
 
   .news--left__text {
     margin-top: 20px;
+  }
+
+  .news,
+  .section-contact {
+    padding: 50px 0;
   }
 }
