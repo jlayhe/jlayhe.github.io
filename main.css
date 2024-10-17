@@ -92,6 +92,11 @@ img {
   font-style: italic;
 }
 
+.col--left,
+.col--right {
+  width: 100%;
+}
+
 /*
 // HEADER //
 */
@@ -164,16 +169,6 @@ img {
 
 .news--left__bullets {
   list-style-type: none;
-}
-
-.news--left,
-.details--left {
-  width: 100%;
-}
-
-.news--right,
-.details--right {
-  width: 100%;
 }
 
 .news--right {
@@ -324,22 +319,15 @@ img {
   }
 
   .news--right {
-    float: right;
-    width: 50%;
     text-align: right;
   }
 
-  .news--left {
-    float: left;
-    width: 45%;
-  }
-
-  .details--right {
+  .col--right {
     float: right;
     width: 50%;
   }
 
-  .details--left {
+  .col--left {
     float: left;
     width: 45%;
   }
