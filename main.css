@@ -171,10 +171,9 @@ img {
   list-style-type: none;
 }
 
-.news--right {
+.big-text-right-small-text-left {
   text-align: left;
 }
-
 
 /* Pictures of church and reception */
 .news--right__img,
@@ -318,7 +317,7 @@ img {
     font-size: 28px;
   }
 
-  .news--right {
+  .big-text-right-small-text-left {
     text-align: right;
   }
 
