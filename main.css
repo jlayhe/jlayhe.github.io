@@ -303,6 +303,7 @@ img {
 .footer__link:hover {
   color: #FFFFFF;
   cursor: pointer;
+  transition: ease 0.3s all;
 }
 
 /*
